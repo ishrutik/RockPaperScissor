@@ -246,7 +246,7 @@ function add_specs(wins){
     status.innerHTML = `
     <h1 class="tie-msg">TIE UP</h1>
     <div class="btn">
-    <a href="../index.html" style="text-decoration: none; color: #6B6B6B;"><p class="btn-content">PLAY AGAIN</p></a>
+    <a href="index.html" style="text-decoration: none; color: #6B6B6B;"><p class="btn-content">PLAY AGAIN</p></a>
     </div>
     `;
     document.getElementsByClassName("lower-half")[0].appendChild(status);
